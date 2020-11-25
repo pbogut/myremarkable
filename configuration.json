@@ -1,5 +1,6 @@
 {
   "copy-files": {
-    "files/suspended.png": "/usr/share/remarkable/suspended.png"
+    "files/suspended.png": "/usr/share/remarkable/suspended.png",
+    "files/poweroff.png": "/usr/share/remarkable/poweroff.png"
   }
 }
