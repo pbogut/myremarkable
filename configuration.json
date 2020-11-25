@@ -1,0 +1,5 @@
+{
+  "copy-files": {
+    "files/suspended.png": "/usr/share/remarkable/suspended.png"
+  }
+}
