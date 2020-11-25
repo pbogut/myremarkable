@@ -2,5 +2,15 @@
   "copy-files": {
     "files/suspended.png": "/usr/share/remarkable/suspended.png",
     "files/poweroff.png": "/usr/share/remarkable/poweroff.png"
-  }
+  },
+  "templates": [
+    {
+      "name": "Daily Pomodoro",
+      "filename": "Pomodoro_Daily",
+      "iconCode": "\ue98f",
+      "categories": [
+        "Life/organize"
+      ]
+    }
+  ]
 }
