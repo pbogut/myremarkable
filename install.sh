@@ -14,6 +14,8 @@ usage() {
 }
 
 start_robo() {
+  robo rm:convert-templates
+  robo rm:copy-templates $ssh_ip
   robo rm:copy-files $ssh_ip
 }
 
