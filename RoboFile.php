@@ -2,10 +2,8 @@
 
 class RoboFile extends \Robo\Tasks
 {
-    public function rmCopyFiles($opts = ['ssh-ip' => ''])
+    public function rmCopyFiles($sshIp)
     {
-        $sshIp = $opts['ssh-ip'];
-
         $fileList = $this->getConfig('copy-files', []);
         foreach ($fileList as $src => $dst) {
             echo "$src -> $dst\n";
