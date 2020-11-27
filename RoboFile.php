@@ -14,6 +14,15 @@ class RoboFile extends \Robo\Tasks
 
     }
 
+    public function rmReboot($sshIp)
+    {
+        if ($this->io()->confirm('Do you want to reboot your tablet?', false)) {
+            $this->taskExec('ssh')
+                 ->args(["root@$sshIp", '-t', '/sbin/reboot'])
+                 ->run();
+        }
+    }
+
     public function rmCopyTemplates($sshIp)
     {
 
