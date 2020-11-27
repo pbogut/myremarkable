@@ -8,9 +8,13 @@
       "name": "Daily Pomodoro",
       "filename": "Pomodoro_Daily",
       "iconCode": "\ue98f",
-      "categories": [
-        "Life/organize"
-      ]
+      "categories": ["Life/organize"]
+    },
+    {
+      "name": "Sticky Notes",
+      "filename": "Sticky_Notes",
+      "iconCode": "\ue9fe",
+      "categories": ["Life/organize"]
     }
   ]
 }
