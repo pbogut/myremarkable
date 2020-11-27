@@ -1,7 +1,11 @@
 {
   "copy-files": {
-    "files/suspended.png": "/usr/share/remarkable/suspended.png",
-    "files/poweroff.png": "/usr/share/remarkable/poweroff.png"
+    "files/batteryempty.png": "/usr/share/remarkable/batteryempty.png",
+    "files/poweroff.png": "/usr/share/remarkable/poweroff.png",
+    "files/rebooting.png": "/usr/share/remarkable/rebooting.png",
+    "files/splash.png": "/usr/share/remarkable/splash.png",
+    "files/starting.png": "/usr/share/remarkable/starting.png",
+    "files/suspended.png": "/usr/share/remarkable/suspended.png"
   },
   "templates": [
     {
