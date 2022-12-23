@@ -12,13 +12,31 @@
       "name": "Daily Pomodoro",
       "filename": "Pomodoro_Daily",
       "iconCode": "\ue98f",
-      "categories": ["Life/organize"]
+      "categories": ["My", "Work"]
+    },
+    {
+      "name": "Pomodoro Backlog",
+      "filename": "Pomodoro_Backlog",
+      "iconCode": "\ue98f",
+      "categories": ["My", "Work"]
     },
     {
       "name": "Sticky Notes",
       "filename": "Sticky_Notes",
       "iconCode": "\ue9fe",
-      "categories": ["Life/organize"]
+      "categories": ["My"]
+    },
+    {
+      "name": "Habbit Tracker",
+      "filename": "Habbit_Track",
+      "iconCode": "\ue98f",
+      "categories": ["My", "Life/organize"]
+    },
+    {
+      "name": "Score Board",
+      "filename": "Score_Board",
+      "iconCode": "\ue98f",
+      "categories": ["My"]
     }
   ]
 }

@@ -5,6 +5,8 @@
 # date:   25/11/2020
 #=================================================
 dir="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
+[[ -f $dir/.env ]] && source $dir/.env
+
 cd $dir
 ssh_ip=${1:-$REMARKABLE_IP}
 

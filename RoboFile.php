@@ -72,7 +72,7 @@ class RoboFile extends \Robo\Tasks
         $begining = array_slice($templatesData, 0, 2);
         $ending = array_slice($templatesData, 2);
         $tempatesOrig['templates'] = array_merge($begining, $templatesNew, $ending);
-        file_put_contents($templatesTmp, json_encode($tempatesOrig));
+        file_put_contents($templatesTmp, json_encode($tempatesOrig, JSON_PRETTY_PRINT));
 
         foreach ($newFiles as $tpFile) {
             $result = $this->taskExec('scp')
