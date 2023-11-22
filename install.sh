@@ -16,11 +16,14 @@ usage() {
 }
 
 start_robo() {
-  robo rm:convert-templates
-  robo rm:copy-templates $ssh_ip
-  robo rm:copy-files $ssh_ip
-  robo rm:reboot $ssh_ip
+  php robo rm:convert-templates
+  php robo rm:copy-templates $ssh_ip
+  php robo rm:copy-files $ssh_ip
+  php robo rm:reboot $ssh_ip
 }
+
+
+## INFO:  Use '/home/root/entware-reenable' to re-enable Toltec after a system update
 
 
 if [[ -z $ssh_ip ]]; then
