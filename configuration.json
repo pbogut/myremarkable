@@ -9,6 +9,12 @@
   },
   "templates": [
     {
+      "name": "Daily Pomodoro v2",
+      "filename": "Pomodoro_Daily_v2",
+      "iconCode": "\ue98f",
+      "categories": ["My", "Work"]
+    },
+    {
       "name": "Daily Pomodoro",
       "filename": "Pomodoro_Daily",
       "iconCode": "\ue98f",
